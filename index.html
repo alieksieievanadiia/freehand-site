@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>FreeHand — Home</title>
+
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <!-- FontAwesome для иконок -->
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-yH8f+…sR5eQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+    />
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <!-- Ваш CSS -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="vh-header">
+    <div class="container header-inner">
+        <div class="search-wrap">
+            <input type="text" placeholder="Search">
+            <i class="fas fa-search"></i>
+        </div>
+        <a href="index.html" class="logo">FreeHand</a>
+        <div class="icons">
+            <button><i class="far fa-heart"></i></button>
+            <button class="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cart-count">0</span>
+            </button>
+        </div>
+    </div>
+</header>
+
+<!-- NAVIGATION -->
+<nav class="main-nav">
+    <div class="container">
+        <ul>
+            <li><a href="index.html" class="active">Main</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="about.html">About products</a></li>
+            <li><a href="shop.html">Shop now</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- MAIN CONTENT -->
+<main class="container">
+    <!-- HERO SLIDER -->
+    <section class="hero-slider">
+        <div class="swiper hero-swiper">
+            <div class="swiper-wrapper">
+                <!-- Слайд 1 -->
+                <div class="swiper-slide">
+                    <div class="hero-bg"></div>
+                    <img src="assets/images/slide1.png"
+                         alt="FreeHand Stand View 1"
+                         class="hero-product">
+                    <div class="hero-caption">
+                        <p>
+                            Discover the minimalist stand, 3D-printed to combine functionality
+                            and style with precision and innovation.
+                        </p>
+                        <!-- Вот рабочий href -->
+                        <a href="discover.html" class="btn">Discover</a>
+                    </div>
+                </div>
+                <!-- Слайд 2 -->
+                <div class="swiper-slide">
+                    <div class="hero-bg"></div>
+                    <img src="assets/images/slide2.png"
+                         alt="FreeHand Stand View 2"
+                         class="hero-product">
+                    <div class="hero-caption">
+                        <p>
+                            Discover the minimalist stand, 3D-printed to combine functionality
+                            and style with precision and innovation.
+                        </p>
+                        <a href="discover.html" class="btn">Discover</a>
+                    </div>
+                </div>
+                <!-- Слайд 3 -->
+                <div class="swiper-slide">
+                    <div class="hero-bg"></div>
+                    <img src="assets/images/slide3.png"
+                         alt="FreeHand Stand View 3"
+                         class="hero-product">
+                    <div class="hero-caption">
+                        <p>
+                            Discover the minimalist stand, 3D-printed to combine functionality
+                            and style with precision and innovation.
+                        </p>
+                        <a href="discover.html" class="btn">Discover</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Навигационные стрелки -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+    <!-- SHOP PREVIEW -->
+    <section class="shop-preview container">
+        <div class="shop-thumbs">
+            <img src="assets/images/shop1.png" alt="Shop preview 1">
+            <img src="assets/images/shop2.png" alt="Shop preview 2">
+            <img src="assets/images/shop3.png" alt="Shop preview 3">
+        </div>
+        <a href="shop.html" class="btn">Shop now</a>
+    </section>
+
+    <!-- FOOTER DETAILS -->
+    <section class="footer-details container">
+        <p>
+            FreeHand is a project born from learning and shaped by meticulous work.
+            Created to merge functionality with modern design solutions, it embodies
+            the idea that even simple objects can be practical, aesthetically
+            pleasing, and thoughtfully crafted down to the last detail...
+        </p>
+        <img
+                src="assets/images/freehand-logo-circle.png"
+                alt="FreeHand Logo"
+                class="footer-logo"
+        >
+    </section>
+</main>
+
+<!-- Скрипты -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="assets/js/cart.js"></script>
+<script src="assets/js/slider.js"></script>
+</body>
+</html>

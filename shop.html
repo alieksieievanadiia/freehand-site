@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FreeHand — Shop</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+            integrity="sha512-yH8f+...sR5eQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<header class="vh-header">
+    <div class="container header-inner">
+        <div class="search-wrap">
+            <input type="text" placeholder="Search">
+            <i class="fas fa-search"></i>
+        </div>
+        <a href="index.html" class="logo">FreeHand</a>
+        <div class="icons">
+            <button><i class="far fa-heart"></i></button>
+            <button class="cart-btn">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cart-count">0</span>
+            </button>
+        </div>
+    </div>
+</header>
+<nav class="main-nav">
+    <div class="container">
+        <ul>
+            <li><a href="index.html">Main</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="about.html">About products</a></li>
+            <li><a href="shop.html" class="active">Shop now</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+        </ul>
+    </div>
+</nav>
+
+<main class="container">
+    <section class="section-content">
+        <div class="image">
+            <img src="assets/images/shop1.png" alt="FreeHand Gray">
+        </div>
+        <div class="text">
+            <h1>FreeHand – Multifunctional Stand</h1>
+            <ul class="product-details">
+                <li><strong>Installation:</strong> Table/Cabinet</li>
+                <li><strong>Mounting:</strong> Without mounting</li>
+                <li><strong>Tilt Angle:</strong> 60°</li>
+                <li><strong>Dimensions:</strong> 230 × 100 × 100 mm</li>
+                <li><strong>Colors:</strong> Gray / Blue / Black</li>
+                <li><strong>Type:</strong> Stand</li>
+            </ul>
+            <button class="btn" onclick="addToCart()">Add to cart</button>
+        </div>
+    </section>
+</main>
+
+<script src="assets/js/cart.js"></script>
+</body>
+</html>
